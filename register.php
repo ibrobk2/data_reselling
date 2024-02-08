@@ -19,7 +19,7 @@
         </div>
         <div class="card-body">
           <!-- Registration Form -->
-          <form>
+          <form action="process.php" method="post">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="fullName">Full Name:</label>
@@ -43,8 +43,15 @@
                 <label for="state">Select State:</label>
                 <select id="state" class="form-control" name="state" required>
                   <!-- Add your state options here -->
-                  <option value="state1">State 1</option>
-                  <option value="state2">State 2</option>
+                  <option value="Select State">Select State</option>
+                  <option value="Kaduna">Kaduna</option>
+                  <option value="Kano">Kano</option>
+                  <option value="Katsina">Katsina</option>
+                  <option value="Kebbi">Kebbi</option>
+                  <option value="Jigawa">Jigawa</option>
+                  <option value="Sokoto">Sokoto</option>
+                  <option value="Zamfara">Zamfara</option>
+                  <!-- <option value="state2">State2</option> -->
                   <!-- Add more options as needed -->
                 </select>
               </div>
