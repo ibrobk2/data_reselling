@@ -19,7 +19,7 @@
         </div>
         <div class="card-body">
           <!-- Registration Form -->
-          <form action="process.php" method="post">
+          <form action="user_reg.php" method="post">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="fullName">Full Name:</label>

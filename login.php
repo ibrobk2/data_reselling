@@ -19,7 +19,7 @@
         </div>
         <div class="card-body">
           <!-- Login Form -->
-          <form>
+          <form action="user_login.php" method="post">
             <div class="form-group">
               <label for="username">Username:</label>
               <input type="text" class="form-control" id="username" name="username" required>
