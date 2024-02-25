@@ -11,7 +11,7 @@
 
   <div class="container mt-5 w-50">
     <h1>Buy Airtime</h1>
-    
+    <form action="airtime.php" method="post">
     <!-- Select Network -->
     <div class="form-group">
       <label for="selectNetwork">Select Network:</label>
@@ -38,6 +38,7 @@
     <!-- Buy Button -->
     <button id="buyButton" class="btn btn-primary">Buy Airtime</button>
   </div>
+  </form>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
