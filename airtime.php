@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['btn-data'])){
+if(isset($_POST['buy-airtime'])){
     $network = $_POST['network'];
     $phone = $_POST['phone'];
     $amount = $_POST['amount'];
@@ -10,9 +10,9 @@ $curl = curl_init();
 $data = json_encode(["network"=>$network,
     "amount"=>$amount,
     "mobile_number"=>$phone,
-    "plan"=>$plan,
+    // "plan"=>$plan,
     "Ported_number"=>true,
-    "airtime_type":"VTU",
+    "airtime_type"=>"VTU",
     // "payment_medium" => "payment_medium"// NOTE: This field/parameter is optional, It is mainly for those that wants to use Data wallet.... Mediums are \'MAIN WALLET\' or \'MTN SME DATA BALANCE\' or \'MTN CG DATA BALANCE\' or \'AIRTEL CG DATA BALANCE\'
 ]);
 
@@ -28,7 +28,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => 'POST',
   CURLOPT_POSTFIELDS => $data,
   CURLOPT_HTTPHEADER => array(
-    'Authorization: Token 52042eba3f89944b8e5f0985d5025918a7c87e82',
+    'Authorization: Token xxxxxxx',
     'Content-Type: application/json'
   ),
 ));

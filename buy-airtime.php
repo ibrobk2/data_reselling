@@ -15,8 +15,8 @@
     <!-- Select Network -->
     <div class="form-group">
       <label for="selectNetwork">Select Network:</label>
-      <select id="selectNetwork" class="form-control">
-        <option value="MTN">MTN</option>
+      <select id="selectNetwork" class="form-control" name="network">
+        <option value="1">MTN</option>
         <option value="AIRTEL">AIRTEL</option>
         <option value="GLO">GLO</option>
         <option value="9MOBILE">9MOBILE</option>
@@ -26,17 +26,17 @@
     <!-- Phone Number -->
     <div class="form-group">
       <label for="phoneNumber">Phone Number:</label>
-      <input type="text" id="phoneNumber" class="form-control">
+      <input type="text" id="phoneNumber" class="form-control"name="phone">
     </div>
     
     <!-- Amount -->
     <div class="form-group">
       <label for="amount">Amount:</label>
-      <input type="text" id="amount" class="form-control">
+      <input type="text" id="amount" class="form-control" name="amount">
     </div>
     
     <!-- Buy Button -->
-    <button id="buyButton" class="btn btn-primary">Buy Airtime</button>
+    <button id="buyButton" class="btn btn-primary" name="buy-airtime">Buy Airtime</button>
   </div>
   </form>
 

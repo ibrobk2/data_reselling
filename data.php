@@ -26,7 +26,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => 'POST',
   CURLOPT_POSTFIELDS => $data,
   CURLOPT_HTTPHEADER => array(
-    'Authorization: Token 52042eba3f89944b8e5f0985d5025918a7c87e82',
+    'Authorization: Token xxxxx',
     'Content-Type: application/json'
   ),
 ));
